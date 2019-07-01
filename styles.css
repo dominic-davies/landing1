@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+html {
+  /* so we can use rems */
+  font-size: 1vw;
+}
+
+body * {
+  /* should apply to btns and inputs now */
+  font-family: 'Quicksand', sans-serif;
+}
+
+.alt-font {
+  font-family: 'Questrial', sans-serif;
+}
+
+.container {
+  margin-left: 184px !important;
+  margin-right: 184px !important;
+}
+
+#main-navigation ul * {
+  display: inline-block;
+}
+
+#main-navigation ul {
+  font-size: 0;
+}
+
+#main-navigation li a {
+  font-size: calc(0.7rem + 6px);
+  text-decoration: none;
+  padding: 18px 32px;
+  border-left: 1px solid rgba(40, 58, 215, 0.1);
+  color: rgba(40, 58, 215, 0.8);
+}
+
+#main-navigation li a:hover {
+  background-color: #4252f2;
+  color: #fff;
+}
+
+#main-navigation li a.last-nav {
+  border-right: 1px solid rgba(40, 58, 215, 0.1);
+}
