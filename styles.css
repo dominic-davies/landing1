@@ -47,3 +47,48 @@ body * {
 #main-navigation li a.last-nav {
   border-right: 1px solid rgba(40, 58, 215, 0.1);
 }
+
+/* Landing Section */
+
+#landing-section {
+  background-image: url(images/skyline.png);
+  background-size: cover;
+  background-position: center top;
+}
+
+#landing-section div {
+  padding-bottom: 18em;
+}
+
+#landing-section * {
+  color: #fff;
+}
+
+#landing-section h1 {
+  font-size: 5rem;
+  padding-top: 2em;
+}
+
+#landing-section p {
+  width: calc(30% + 170px);
+  line-height: 150%;
+  font-size: 1.2rem;
+  font-weight: 300;
+  padding-top: 1em;
+  margin-bottom: 1em;
+}
+
+#landing-section button {
+  font-size: 1.4rem;
+  font-weight: 300;
+  border-radius: 500px;
+  border: none;
+  background-color: #fff;
+  color: #283ad7;
+  padding: 0.4em 1.8em;
+  outline: none;
+}
+
+#landing-section button:hover {
+  opacity: 0.6;
+}
